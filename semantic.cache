@@ -1,0 +1,21 @@
+;; Object newsticker/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "newsticker/"
+  :tables (list 
+   (semanticdb-table "newsticker.py"
+    :major-mode 'python-mode
+    :tags '(("sys" include nil nil [24 34]) ("getopt" include nil nil [35 48]) ("gtk" include nil nil [50 60]) ("gnomeapplet" include nil nil [61 79]) ("gobject" include nil nil [80 94]) ("widget" include nil nil [96 133]) ("PACKAGE" variable nil nil [135 157]) ("VERSION" variable nil nil [158 173]) ("background_show" function (:arguments (("applet" variable nil (reparse-symbol function_parameters) [195 201]))) nil [175 254]) ("newsticker_factory" function (:arguments (("applet" variable nil (reparse-symbol function_parameters) [278 284]) ("iid" variable nil (reparse-symbol function_parameters) [286 289]))) nil [255 442]) ("newsticker_window" function nil nil [443 748]) ("usage" function nil nil [749 955]) ("if" code nil nil [956 1735]))
+    :file "newsticker.py"
+    :pointmax 1735
+    )
+   (semanticdb-table "widget.py"
+    :major-mode 'python-mode
+    :tags '(("gobject" include nil nil [1 15]) ("pango" include nil nil [16 28]) ("gtk" include nil nil [29 39]) ("gtk" include nil nil [40 59]) ("ScrolledTextWidget" type (:superclasses ("gtk.Widget") :members (("__init__" function (:arguments (("self" variable nil (reparse-symbol function_parameters) [116 120]))) (reparse-symbol indented_block_body) [103 428]) ("set_font" function (:arguments (("self" variable nil (reparse-symbol function_parameters) [446 450]) ("font" variable nil (reparse-symbol function_parameters) [452 456]) ("size" variable nil (reparse-symbol function_parameters) [465 469]))) (reparse-symbol indented_block_body) [433 562]) ("set_text" function (:arguments (("self" variable nil (reparse-symbol function_parameters) [580 584]) ("t" variable nil (reparse-symbol function_parameters) [586 587]) ("tt" variable nil (reparse-symbol function_parameters) [589 591]))) (reparse-symbol indented_block_body) [567 783]) ("do_realize" function (:arguments (("self" variable nil (reparse-symbol function_parameters) [803 807]))) (reparse-symbol indented_block_body) [788 1353]) ("do_unrealize" function (:arguments (("self" variable nil (reparse-symbol function_parameters) [1375 1379]))) (reparse-symbol indented_block_body) [1358 1422]) ("do_size_request" function (:arguments (("self" variable nil (reparse-symbol function_parameters) [1447 1451]) ("requisition" variable nil (reparse-symbol function_parameters) [1453 1464]))) (reparse-symbol indented_block_body) [1427 1606]) ("do_size_allocate" function (:arguments (("self" variable nil (reparse-symbol function_parameters) [1632 1636]) ("allocation" variable nil (reparse-symbol function_parameters) [1638 1648]))) (reparse-symbol indented_block_body) [1611 1777]) ("do_expose_event" function (:arguments (("self" variable nil (reparse-symbol function_parameters) [1802 1806]) ("event" variable nil (reparse-symbol function_parameters) [1808 1813]))) (reparse-symbol indented_block_body) [1782 3032]) ("do_redraw" function (:arguments (("self" variable nil (reparse-symbol function_parameters) [3051 3055]))) (reparse-symbol indented_block_body) [3037 3354])) :type "class") nil [61 3354]) ("gobject" code nil nil [3354 3395]))
+    :file "widget.py"
+    :pointmax 3396
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0pre3"
+  :semanticdb-version "2.0pre3"
+  )

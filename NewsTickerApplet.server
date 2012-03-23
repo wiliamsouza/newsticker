@@ -1,0 +1,46 @@
+<oaf_info>
+<oaf_server iid="OAFIID:GNOME_NewsTicker_Factory"
+            type="exe"
+            location="/home/wiliam/dev/newsticker/newsticker.py">
+
+        <oaf_attribute name="repo_ids" type="stringv">
+                <item value="IDL:Bonobo/GenericFactory:1.0"/>
+                <item value="IDL:Bonobo/Unknown:1.0"/>
+        </oaf_attribute>
+
+        <oaf_attribute name="name"
+                       type="string"
+                       value="News Ticker"/>
+
+        <oaf_attribute name="description"
+                       type="string"
+                       value="Gnome News Ticker Applet"/>
+</oaf_server>
+
+<oaf_server iid="OAFIID:GNOME_NewsTicker"
+            type="factory" 
+            location="OAFIID:GNOME_NewsTicker_Factory">
+
+        <oaf_attribute name="repo_ids" type="stringv">
+                <item value="IDL:GNOME/Vertigo/PanelAppletShell:1.0"/>
+                <item value="IDL:Bonobo/Control:1.0"/>
+                <item value="IDL:Bonobo/Unknown:1.0"/>
+        </oaf_attribute>
+
+        <oaf_attribute name="name"
+                       type="string"
+                       value="News Ticker"/>
+
+        <oaf_attribute name="description"
+                       type="string"
+                       value="Gnome News Ticker Applet"/>
+
+        <oaf_attribute name="panel:category"
+                       type="string"
+                       value="Accessories"/>
+
+        <oaf_attribute name="panel:icon"
+                       type="string"
+                       value="stock_news.png"/>
+</oaf_server>
+</oaf_info>
